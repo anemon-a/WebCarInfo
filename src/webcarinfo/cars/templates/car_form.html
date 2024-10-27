@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Car</title>
+   <link rel="stylesheet" />
+</head>
+
+<body>
+   {% if user.is_authenticated %}
+   <form action="">
+      <fieldset>
+         {{ form }}
+         <input type="submit" value="Добавить">
+      </fieldset>
+   </form>
+   {% endif %}
+</body>
+
+</html>
